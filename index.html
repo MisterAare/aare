@@ -193,17 +193,16 @@
                     <div class="bg-primary text-center p-5">
                         <h1 class="text-white font-weight-bold">Subscribe My Newsletter</h1>
                         <p class="text-white">Subscribe and get my latest article in your inbox</p>
-                        <form class="form-inline justify-content-center">
+                        <form class="form-inline justify-content-center" action="https://aare.substack.com/embed" method="get" target="_blank">
                             <div class="input-group">
                                 <input type="text" class="form-control border-0 p-4" placeholder="Your Email">
                                 <div class="input-group-append">
-                                 <a href="https://aare.substack.com/embed" target="_blank"></a>
                                     <button class="btn btn-dark px-4" type="submit">Subscribe</button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                </div>
+                </div>                
                 <!-- Subscribe End -->
 
 
@@ -251,6 +250,7 @@
                                         <li class="btn btn-outline-primary active"  data-filter="*"><i class="fa fa-star mr-2"></i>All</li>
                                         <li class="btn btn-outline-primary" data-filter=".first"><i class="fa fa-laptop-code mr-2"></i>Data Analysis</li>
                                         <li class="btn btn-outline-primary" data-filter=".second"><i class="fa fa-mobile-alt mr-2"></i>Dashboards & Reports</li>
+                                        <li class="btn btn-outline-primary" data-filter=".third"><i class="fa fa-mobile-alt mr-2"></i>Data Science</li>
                                     </ul>
                                 </div>
                             </div>
@@ -359,7 +359,7 @@
                         <div class="col-12">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <form name="sentMessage" id="contactForm" action="mailto:adegboyegaaare@gmail.com" method="post" enctype="text/plain" novalidate="novalidate">
                                     <div class="form-row">
                                         <div class="control-group col-sm-6">
                                             <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
@@ -390,7 +390,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                
                 <!-- Contact End -->
                 
                 
